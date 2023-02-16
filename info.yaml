@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    355998327409234945        # If using wokwi, set this to your project's ID
+  wokwi_id:    356298876593207297        # If using wokwi, set this to your project's ID
 #  source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. Source files must be in ./src
 #    - counter.v
 #    - decoder.v
@@ -15,11 +15,11 @@ project:
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
   author:       "Yannick Reiß"      # Your name
-  title:        "Debounce Button Demo"      # Project title
-  description:  "Debounce Button. HSRM Demo Project."      # Short description of what your project does
+  title:        "RAM TT2"      # Project title
+  description:  "RAM test with 8 byte"      # Short description of what your project does
   discord:      "YNick#7375"      # Your discord handle
-  how_it_works: "compares result of two flip flops to enable output only for one step."      # Longer description of how the project works
-  how_to_test:  "Set 1+2 on switchboard to 'on' and input1 to clock. Press lower Step-Button to produce output."
+  how_it_works: ""      # Longer description of how the project works
+  how_to_test:  ""
   external_hw:  "None"      # Describe any external hardware needed
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
