@@ -18,12 +18,12 @@ documentation:
   title:        "RAM TT2"      # Project title
   description:  "RAM test with 8 byte"      # Short description of what your project does
   discord:      "YNick#7375"      # Your discord handle
-  how_it_works: ""      # Longer description of how the project works
-  how_to_test:  ""
+  how_it_works: "Input one and two are clockinput and write enable. Input 3+4 are the address (encoded) 5-8 is the data."      # Longer description of how the project works
+  how_to_test:  "set clk on input 1, play around with different addresses and inputs"
   external_hw:  "None"      # Describe any external hardware needed
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
-  clock_hz:     0       # Clock frequency in Hz (if required)
+  clock_hz:     1000       # Clock frequency in Hz (if required)
   picture:      "ttlogo.png"      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
     - clock
