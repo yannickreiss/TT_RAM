@@ -27,7 +27,7 @@ documentation:
   picture:      "ttlogo.png"      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
     - clock
-    - reset
+    - enable
     - addr1
     - addr2
     - data1
