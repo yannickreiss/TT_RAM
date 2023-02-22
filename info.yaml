@@ -15,10 +15,10 @@ project:
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
   author:       "Yannick Reiß"      # Your name
-  title:        "RAM TT2"      # Project title
-  description:  "RAM test with 8 byte"      # Short description of what your project does
+  title:        "4x4 Memory"      # Project title
+  description:  "Store and load 16 bits organized in 4x4 register."      # Short description of what your project does
   discord:      "YNick#7375"      # Your discord handle
-  how_it_works: "Input one and two are clockinput and write enable. Input 3+4 are the address (encoded) 5-8 is the data."      # Longer description of how the project works
+  how_it_works: "Input one and two are clockinput and write enable. Input 3+4 are the address of the register and 5-8 dare the 4 data bits."      # Longer description of how the project works
   how_to_test:  "set clk on input 1, play around with different addresses and inputs"
   external_hw:  "None"      # Describe any external hardware needed
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
@@ -40,7 +40,7 @@ documentation:
     - data3
     - data4
     - none
-    - test1
-    - test2
-    - test3
+    - none
+    - none
+    - none
 
